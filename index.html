@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A.M.I cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container header__container">
-            <a href="" class="header__logo">
-                <img src="./img/лого ами 2.png" alt="" srcset="">
-            </a>
+        <div class="container header__container header__bg">
             <nav class="nav">
+                <a href="" class="header__logo">
+                    <img src="./img/лого ами 2.png" alt="" srcset="" class="header__logo">
+                </a>
                 <ul class="nav__list">
                     <li class="nav__text">
                         <a href="" class="nav__link">
@@ -40,22 +46,22 @@
                         </a>
                     </li>
                 </ul>
+                <div class="nav__right">
+                    <a href="" class="account">
+                        <img src="./img/free-user-icon-244-thumb.png" alt="" class="account__img">
+                    </a>
+                    <a href="" class="buy">
+                        <img src="./img/shopping-cart.svg" alt="" class="buy__img">
+                    </a>
+                </div>
             </nav>
-            <div class="header__right">
-                <a href="" class="account">
-                    <img src="" alt="">
-                </a>
-                <a href="" class="buy">
-                    <img src="" alt="">
-                </a>
-            </div>
-            <div class="header__bg">
-                        <h1 class="slogan-title">
-                            A.M.I cream - косметика, которая действительно работает!
-                        </h1>
-                        <button class="order">
-                            Заказать
-                        </button>
+            <div class="header__bot">
+                <h1 class="slogan-title">
+                    A.M.I cream - косметика, которая действительно работает!
+                </h1>
+                <button class="order">
+                    Заказать
+                </button>
             </div>
         </div>
     </header>
@@ -65,52 +71,53 @@
                 <h2 class="about_us-title">
                     О нас
                 </h2>
-                <p class="about__us-descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat nisl lacus, non vestibulum leo lacinia non. Maecenas ut est ac ex fringilla porttitor. Sed maximus lorem orci, eu fringilla arcu vestibulum at. Mauris ornare consequat metus. Aliquam egestas maximus arcu ut venenatis. Mauris cursus, nulla quis sollicitudin iaculis, dui urna ultrices dui, et dignissim purus tortor non lacus. Quisque pellentesque, ante tempus finibus fermentum, orci lacus volutpat lectus, vel commodo justo ligula ut diam. Suspendisse potenti.
-                </p>
-                <picture class="about__us-pic">
-                    <source media="">
-                    <img src="./img/dohuys.jpg" alt="">
-                </picture>
+                <div class="descr__block">
+                    <p class="about__us-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat nisl lacus, non vestibulum leo lacinia non. Maecenas ut est ac ex fringilla porttitor. Sed maximus lorem orci, eu fringilla arcu vestibulum at. Mauris ornare consequat metus. Aliquam egestas maximus arcu ut venenatis. Mauris cursus, nulla quis sollicitudin iaculis, dui urna ultrices dui, et dignissim purus tortor non lacus. Quisque pellentesque, ante tempus finibus fermentum, orci lacus volutpat lectus, vel commodo justo ligula ut diam. Suspendisse potenti.
+                    </p>
+                        <img src="./img/dohuys.jpg" alt="" class="about__us-pic">
+                </div>
             </div>
         </section>
         <section class="details">
             <div class="container">
                 <div class="details__card">
-                    <img src="./img/maska.jpg" alt="" class="details__card-pic">
-                    <span class="details__card-text">
-                        Крем антивозрастной
-                    </span>
-                    <span class="details__card-price">
-                        10.000тг
-                    </span>
-                    <button class="details__card-btn">
-                        Подробнее
-                    </button>
-                </div>
-                <div class="details__card">
-                    <img src="./img/maska.jpg" alt="" class="details__card-pic">
-                    <span class="details__card-text">
-                        Крем антивозрастной
-                    </span>
-                    <span class="details__card-price">
-                        10.000тг
-                    </span>
-                    <button class="details__card-btn">
-                        Подробнее
-                    </button>
-                </div>
-                <div class="details__card">
-                    <img src="./img/maska.jpg" alt="" class="details__card-pic">
-                    <span class="details__card-text">
-                        Крем антивозрастной
-                    </span>
-                    <span class="details__card-price">
-                        10.000тг
-                    </span>
-                    <button class="details__card-btn">
-                        Подробнее
-                    </button>
+                    <div class="card__1">
+                        <img src="./img/maska.jpg" alt="" class="details__card-pic">
+                        <span class="details__card-text">
+                            Крем антивозрастной
+                        </span>
+                        <span class="details__card-price">
+                            10.000тг
+                        </span>
+                        <button class="details__card-btn">
+                            Подробнее
+                        </button>
+                    </div>
+                    <div class="card__2">
+                        <img src="./img/maska.jpg" alt="" class="details__card-pic">
+                        <span class="details__card-text">
+                            Крем антивозрастной
+                        </span>
+                        <span class="details__card-price">
+                            10.000тг
+                        </span>
+                        <button class="details__card-btn">
+                            Подробнее
+                        </button>
+                    </div>
+                    <div class="card__3">
+                        <img src="./img/maska.jpg" alt="" class="details__card-pic">
+                        <span class="details__card-text">
+                            Крем антивозрастной
+                        </span>
+                        <span class="details__card-price">
+                            10.000тг
+                        </span>
+                        <button class="details__card-btn">
+                            Подробнее
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

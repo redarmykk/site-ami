@@ -1,3 +1,230 @@
-.header__container {
-    background-image: url(./img/bg.jpg);
-}
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+  section {
+    margin-top: 155px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 80px;
+  }
+
+  body {
+    background-color: #FBF8F1;
+  }
+
+  .container, .header__container {
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1810px;
+  }  
+
+  /* header */
+
+  header {
+    border-bottom: 1px solid #000;
+  }
+
+  .header__logo {
+    align-self: center;
+    width: 150px;
+    height: 80px;
+  }
+
+  .header__bg {
+    background-image: url(./img/bg1.png);
+    background-position: center;
+  }
+
+  .header__container {
+    height: 1000px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #000;
+    align-items: center;
+  }
+
+  .nav__list {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0; 
+    list-style: none;
+  }
+
+  .nav__text {
+    font-family: "Montserrat";
+    padding: 15px;
+    font-size: 30px;
+  }
+
+  .nav__link {
+    position: relative;
+  }
+
+  .nav__link::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #282c34;
+    transition: .3s;
+  }
+
+  .nav__link:hover:after {
+    width: 100%;
+  }
+
+  .nav__link::after {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .buy__img, .account__img { 
+    height: 60px;
+    width: 60px;
+  }
+
+
+  .header__bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slogan-title {
+    font-family: "Prata", serif;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 155px;
+    margin-bottom: 340px;
+    color: #252525;
+  }
+
+  .order {
+    padding: 20px 80px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    background-color: #565C45;
+    border: 1px solid #565C45;
+    color: #Fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+
+  .order:hover {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  .order:active {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  .order:focus {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  /* about-us */
+
+  .about_us-title {
+    margin: 0;
+    font-size: 65px;
+    font-family: "Prata", serif;
+    text-align: end;
+    position: relative;
+    right: 260px;
+    margin-bottom: 40px;
+  }
+
+  .descr__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .about__us-descr {
+    font-size: 30px;
+    font-family: "Montserrat";
+    width: 40%;
+  }
+
+  .about__us-pic {
+    width: 45%;
+  }
+
+  /* details */
+
+  .details__card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card__1,
+  .card__2,
+  .card__3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details__card-pic {
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+  .details__card-text,
+  .details__card-price {
+    font-size: 30px;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+  }
+  
+  .details__card-btn {
+    padding: 20px 60px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    color: #565C45;
+    border: 1px solid #565C45;
+    background-color: inherit;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .details__card-btn:hover {
+    background-color: #565C45;
+    color: #fff;
+    border-color: #565C45;
+  }

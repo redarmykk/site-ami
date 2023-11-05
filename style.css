@@ -32,9 +32,8 @@ html {
   }
 
   .container, .header__container {
-    padding: 0 100px;
+    padding: 0 100px 80px;
     max-width: 100%;
-    padding-bottom: 80px;
   }  
 
   /* header */
@@ -51,7 +50,6 @@ html {
 
   .header__bg {
     background-image: url(./img/bg1.png);
-    background-position: center;
   }
 
   .header__container {

@@ -22,17 +22,17 @@ html {
   @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
   section {
-    padding-top: 155px;
+    /* padding-top: 155px; */
     border-bottom: 1px solid #000;
   }
 
   body {
-    margin: 0;
-    background-color: #FBF8F1;
+    margin: 0 auto;
+    background-color: #565C45;
   }
 
   .container, .header__container {
-    padding: 0 100px 80px;
+    padding: 0 100px 0;
     max-width: 100%;
   }  
 
@@ -50,6 +50,7 @@ html {
 
   .header__bg {
     background-image: url(./img/bg1.png);
+    background-repeat: no-repeat;
   }
 
   .header__container {
@@ -113,6 +114,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
   }
 
   .slogan-title {
@@ -157,6 +159,10 @@ html {
 
   /* about-us */
 
+  .about__us {
+    background-color: #FBF8F1;
+  }
+
   .about_us-title {
     margin: 0;
     font-size: 65px;
@@ -165,12 +171,14 @@ html {
     position: relative;
     right: 260px;
     margin-bottom: 40px;
+    padding-top: 155px;
   }
 
   .descr__block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 80px;
   }
   .about__us-descr {
     font-size: 30px;
@@ -184,10 +192,16 @@ html {
 
   /* details */
 
+  .details {
+    background-color: #fff;
+  }
+
   .details__card {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 80px;
+    padding-top: 155px;
   }
 
   .card__1,
@@ -225,4 +239,156 @@ html {
     background-color: #565C45;
     color: #fff;
     border-color: #565C45;
+  }
+
+  /* show */
+
+  .show {
+    background-color: #FBF8F1;
+  }
+  .show__block {
+    background-image: url(./img/sperma.jpg);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 80px;
+  }
+  .show__title {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 65px;
+    font-family: "Prata", serif;
+    text-align: center;
+    position: relative;
+    left: 230px;
+    max-width: 430px;
+    margin-bottom: 60px;
+    padding-top: 155px;
+  }
+
+  .show__descr {
+    font-size: 30px;
+    font-family: "Montserrat";
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .show__btn {
+    padding: 20px 80px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    background-color: #565C45;
+    border: 1px solid #565C45;
+    color: #Fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+
+  .show__btn:hover {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  .show__btn:active {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  .show__btn:focus {
+    background-color: #FBF8F1;
+    color: #565C45;
+    border-color: #565C45;
+  }
+
+  /* feedback */
+  .feedback__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 155px;
+  }
+
+  .feedback__left {
+    background-color: #565C45;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .feedback__right {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .feedback__right-title {
+    font-size: 65px;
+    font-family: "Prata", serif;
+    text-align: center;
+  }
+
+  .feedback__right-descr {
+    font-size: 30px;
+    font-family: "Montserrat";
+  }
+
+  /* contacts */
+  .contacts {
+    background-color: #FBF8F1;
+  }
+
+  .contacts__block {
+    padding-bottom: 80px;
+    padding-top: 155px;
+  }
+
+  .contacts__el {
+    width: 300px;
+  }
+
+  .contacts__header {
+    font-size: 65px;
+    font-family: "Prata", serif;
+    margin: 0;
+  }
+
+  .contacts__pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+
+  .contacts__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Montserrat";
+  }
+
+  /* footer */
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__logo {
+    width: 120px;
+    height: 70px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+    font-family: "Montserrat";
   }

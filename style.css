@@ -79,6 +79,13 @@ html {
     height: 100%;
   }
 
+  .burger {
+    display: none;
+  }
+  
+.stop-scroll {
+  overflow: hidden;
+}
   .nav {
     display: flex;
     justify-content: space-between;

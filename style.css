@@ -208,11 +208,11 @@ html {
   .about__us-descr {
     font-size: 30px;
     font-family: "Montserrat";
-    width: 40%;
+    width: 45%;
   }
 
   .about__us-pic {
-    width: 45%;
+    width: 600px;
   }
 
   /* details */
@@ -272,14 +272,13 @@ html {
     background-color: #FBF8F1;
   }
   .show__block {
-    background-image: url(./img/sperma.jpg);
-    background-size: 37%;
-    background-repeat: no-repeat;
-    background-position: 95% 10%;
+    display: flex;
     padding-bottom: 80px;
     padding-left: 50px;
     padding-right: 50px;
+    justify-content: space-between;
   }
+
   .show__title {
     margin: 0;
     margin-bottom: 0px;
@@ -296,10 +295,20 @@ html {
   .show__descr {
     font-size: 30px;
     font-family: "Montserrat";
-    width: 40%;
     margin: 0;
     padding: 0;
     margin-bottom: 80px;
+  }
+
+  .show__left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 700px;
+  }
+
+  .show__right {
+    width: 600px;
   }
 
   .show__btn {
@@ -345,7 +354,11 @@ html {
     background-color: #565C45;
     width: 50%;
     height: 100%;
-    align-items: center;
+    text-align: center;
+  }
+
+  .feedback__left-pic {
+    width: 50%;
   }
 
   .feedback__right {

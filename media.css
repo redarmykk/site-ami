@@ -1,0 +1,156 @@
+@media screen and (min-width: 1080px) and (max-width: 1710px) {
+
+    /* header */
+    .nav__text {
+        font-size: 18px;
+      }
+
+    .header__logo {
+        width: 100px;
+        height: 50px;
+      }
+
+      .buy__img, .account__img {
+        height: 40px;
+        width: 40px;
+      }
+
+      .container::before {
+        left: 50px;
+      }
+
+      .container::after {
+        right: 50px;
+      
+      }
+
+      .container, .header__container {
+        padding: 0 50px 0;
+
+      }
+
+      .slogan-title {
+        font-size: 45px;
+        margin-top: 100px;
+        margin-bottom: 240px;
+      }
+
+      .order {
+        padding: 15px 55px;
+        font-size: 18px;
+      }
+
+      .header__bot {
+        padding-bottom: 50px;
+      }
+
+      /* about us */
+
+      .about_us-title {
+        font-size: 35px;
+        padding-top: 100px;
+      }
+
+      .about__us-descr {
+        font-size: 18px;
+      }
+
+      .descr__block {
+        justify-content: space-around;
+        padding-bottom: 50px;
+      }
+
+      .about__us-pic {
+        width: 400px;
+      }
+
+      /* details */
+      .details__card-pic {
+        width: 70%;
+      }
+
+      .details__card-text, .details__card-price {
+        font-size: 18px;
+      }
+
+      .details__card-btn {
+        font-size: 18px;
+        padding: 15px 55px;
+      }
+
+      .details__card {
+        padding-bottom: 50px;
+        padding-top: 100px;
+      }
+
+      /* show */
+
+      .show__title {
+        padding-top: 100px;
+        font-size: 35px;
+      }
+
+      .show__descr {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+
+      .show__btn {
+        padding: 15px 55px;
+        font-size: 18px;
+      }
+
+      .show__right {
+        width: 400px;
+      }
+
+      .show__block {
+        justify-content: space-around;
+      }
+
+      /* feedback */
+
+      .feedback__right {
+        padding-top: 100px;
+        padding-bottom: 50px;
+      }
+
+      .feedback__right-title {
+        font-size: 35px;
+      }
+
+      .feedback__right-descr {
+        font-size: 18px;
+      }
+
+      /* contacts */
+
+      .contacts__block {
+        padding-top: 100px;
+        padding-bottom: 50px;
+      }
+
+      .contacts__header {
+        font-size: 35px;
+      }
+
+      .contacts__pic {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+      }
+
+      .contacts__item {
+        font-size: 18px;
+      }
+
+      /* footer */
+      .footer__text {
+        font-size: 14px;
+      }
+
+      .footer__logo {
+        width: 100px;
+        height: 50px;
+      }
+  }
